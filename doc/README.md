@@ -1,9 +1,3 @@
-# LivelyGig Product Start
-
-This tutorial project will essentially just be an environment to begin developing the actual product using Scala.js and Spray.
-
-Below is the original README for the tutorial project.
-
 # Scala.js SPA-tutorial
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ochrons/scalajs-spa-tutorial?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
@@ -18,8 +12,8 @@ It started as a way to learn more about Scala.js and related libraries, but then
 The code covers typical aspects of building a SPA using Scala.js but it doesn't try to be an all-encompassing example for all the things possible with Scala.js.
 Before going through this tutorial, it would be helpful if you already know the basics of Scala.js and have read through the official
 [Scala.js tutorial](http://www.scala-js.org/doc/tutorial.html) and the great e-book [Hands-on Scala.js](http://lihaoyi.github.io/hands-on-scala-js/#Hands-onScala.js)
-by [Li Haoyi (@lihaoyi)](https://github.com/lihaoyi).
+by [Li Haoyi (lihaoyi)](https://github.com/lihaoyi).
 
-# Documentation
+# Code
 
-Tutorial [documentation](https://ochrons.github.io/scalajs-spa-tutorial) is now presented as a GitBook.
+Tutorial code is hosted in a [Github repo](https://github.com/ochrons/scalajs-spa-tutorial).
