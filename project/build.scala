@@ -47,7 +47,27 @@ object Settings {
     val spray = "1.3.2"
     val akka = "2.3.9"
   }
-
+  
+  /**
+   * Dependencies for the LivelyGigAPI
+  val apiDependencies = Seq(
+    "org.json4s" %% "json4s-native" % "3.2.7",
+    "org.json4s" %% "json4s-jackson" % "3.2.7",
+    "com.biosimilarity.lift" % "specialK" % "1.1.8.0",
+    "com.rabbitmq" % "amqp-client" % "2.6.1",
+    "it.unibo.alice.tuprolog" % "tuprolog" % "2.1.1",
+    "com.thoughtworks.xstream" % "xstream" % "1.4.2",
+    "org.mongodb" %% "casbah" % "2.5.0",
+    "org.basex" % "basex-api" % "7.5",
+    "biz.source_code" % "base64coder" % "2010-09-21"
+  )
+  */
+  
+  /**
+ 
+ 
+     
+    */
   /**
    * These dependencies are shared between JS and JVM projects
    * the special %%% function selects the correct version for each project
@@ -105,6 +125,8 @@ object ApplicationBuild extends Build {
       publish := {},
       publishLocal := {}
     )
+  
+
 
   // Command for building a release
   val ReleaseCmd = Command.command("release") {
@@ -242,5 +264,11 @@ object ApplicationBuild extends Build {
     NativePackagerKeys.bashScriptExtraDefines += "export PRODUCTION_MODE=true",
     // reStart depends on running fastOptJS on the JS project
     Revolver.reStart <<= Revolver.reStart dependsOn (fastOptJS in(js, Compile))
-  ).enablePlugins(SbtWeb).enablePlugins(JavaAppPackaging)
+  ).enablePlugins(SbtWeb).enablePlugins(JavaAppPackaging).dependsOn(api)
+  
+  //instantiate the API project for SBT with some additional settings
+  lazy val api = project.settings(
+    scalaVersion := Settings.versions.scala
+  )
+
 }

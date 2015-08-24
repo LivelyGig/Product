@@ -3,13 +3,15 @@ package livelygig.server
 import java.util.{UUID, Date}
 
 import livelygig.shared._
+import livelygig.api._
 
 class ApiService extends Api {
   var todos = Seq(
     TodoItem("41424344-4546-4748-494a-4b4c4d4e4f50", 0x61626364, "Wear shirt that says “Life”. Hand out lemons on street corner.", TodoLow, false),
     TodoItem("2", 0x61626364, "Make vanilla pudding. Put in mayo jar. Eat in public.", TodoNormal, false),
     TodoItem("3", 0x61626364, "Walk away slowly from an explosion without looking back.", TodoHigh, false),
-    TodoItem("4", 0x61626364, "Sneeze in front of the pope. Get blessed.", TodoNormal, true)
+    TodoItem("4", 0x61626364, "Sneeze in front of the pope. Get blessed.", TodoNormal, true),
+    TodoItem("5", 0x61626364, (new Greeter).greet(), TodoNormal, true)
   )
 
   override def motd(name: String): String = s"Welcome to SPA, $name! Time is now ${new Date}"
