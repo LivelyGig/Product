@@ -2,9 +2,9 @@
 
 This is the skeleton of a web application which will use the LivelyGig protocol along with SpecialK. Currently, the front-end is written in Scala.js and routing is done with spray. For now, the front end is just a file browser for demonstration purposes.
 
-To run the LivelyGig product:  
+To run the LivelyGig web application:  
 
-1.) Install sbt.
+1.) Install sbt: http://www.scala-sbt.org/download.html
 
 2.) In the Product directory, run:
 ```
@@ -16,7 +16,7 @@ This will open sbt's interactive mode.
 ```
 re-start
 ```
-and wait until the application is started. This will take a long time the first time it is run.
+and wait until the application is started. This will take a long time the first time it is run as it needs to download dependencies.
 
 Lastly, go to `localhost:8080` in your browser.
 
