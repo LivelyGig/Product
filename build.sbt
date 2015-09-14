@@ -22,15 +22,20 @@ val webAppCrossProject = crossProject.in(file("webapp")).settings(
   )
 ).jsSettings(
   name := "Client",
-  scalaVersion := "2.11.5",
+  scalaVersion := "2.11.6",
   libraryDependencies ++= Seq(
-    "org.scala-js" %%% "scalajs-dom" % "0.8.0"
-  )
+    "org.scala-js" %%% "scalajs-dom" % "0.8.0",
+    "com.github.japgolly.scalajs-react" %%% "core" % "0.9.2",
+    "org.webjars" % "bootstrap" % "3.3.5"
+  ),
+  jsDependencies += "org.webjars" % "react" % "0.12.2" / "react-with-addons.js" commonJSName "React",
+  jsDependencies += "org.webjars" % "jquery" % "2.1.4" / "jquery.js" commonJSName "JQuery",
+  jsDependencies += "org.webjars" % "bootstrap" % "3.3.5"  / "bootstrap.js" commonJSName "Bootstrap"
 ).jvmSettings(
   Revolver.settings:_*
 ).jvmSettings(
   name := "Server",
-  scalaVersion := "2.10.0",
+  scalaVersion := "2.10.4",
   libraryDependencies ++= Seq(
     "io.spray" %% "spray-can" % "1.3.1",
     "io.spray" %% "spray-routing" % "1.3.1",
