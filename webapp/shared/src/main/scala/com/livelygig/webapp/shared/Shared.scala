@@ -2,5 +2,7 @@ package com.livelygig.webapp.shared
 
 
 trait Api{
-  def list(path: String): Seq[String]
+  def addItem(item: String): Seq[String]
+  def removeItem(item: String): Seq[String]
+  def list(): Seq[String]
 }

@@ -13,7 +13,8 @@ object AutowireServer extends autowire.Server[String, upickle.Reader, upickle.Wr
   def read[Result: upickle.Reader](p: String) = upickle.read[Result](p)
   def write[Result: upickle.Writer](r: Result) = upickle.write(r)
 }
-object Server extends SimpleRoutingApp with Api{
+
+object Server extends SimpleRoutingApp {
   def main(args: Array[String]): Unit = {
     implicit val system = ActorSystem()
     startServer("0.0.0.0", port = 8080) {
@@ -21,13 +22,13 @@ object Server extends SimpleRoutingApp with Api{
         pathSingleSlash {
           getFromResource("web/index.html")
         } ~
-        getFromResourceDirectory(".")
+        getFromResourceDirectory("web")
       } ~
       post {
         path("api" / Segments){ s =>
           extract(_.request.entity.asString) { e =>
             complete {
-              AutowireServer.route[Api](Server)(
+              AutowireServer.route[Api](ApiService)(
                 autowire.Core.Request(s, upickle.read[Map[String, String]](e))
               )
             }
@@ -36,12 +37,22 @@ object Server extends SimpleRoutingApp with Api{
       }
     }
   }
+  
 
-  def list(path: String) = {
-    println(Greeter.greet())
-    val chunks = path.split("/", -1)
-    val prefix = "./" + chunks.dropRight(1).mkString("/")
-    val files = Option(new java.io.File(prefix).list()).toSeq.flatten
-    files.filter(_.startsWith(chunks.last))
+}
+
+object ApiService extends Api{
+  val sharedList = new SharedList()
+  
+  def addItem(item: String): Seq[String] = {
+    sharedList.addItem(item)
+  }
+  
+  def removeItem(item: String): Seq[String] = {
+    sharedList.removeItem(item)
+  }
+  
+  def list(): Seq[String] = {
+    sharedList.getItems()
   }
 }
