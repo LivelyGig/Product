@@ -41,6 +41,11 @@ object ClientMain {
     
     class Backend($: BackendScope[Unit, State]) {
     
+      def updateList() = {
+        Client[Api].list().call().foreach { items =>
+          $.modState(s => State(items, ""))
+        }
+      }
       def onChange(e: ReactEventI) =
         $.modState(_.copy(text = e.target.value))
         
@@ -54,11 +59,7 @@ object ClientMain {
     }
 
     val ListApp = ReactComponentB[Unit]("ListApp")
-      .initialState(State(
-        Seq {
-          "test"
-        }, 
-        ""))
+      .initialState(State(Nil, ""))
       .backend(new Backend(_))
       .render((_,S,B) =>
         <.div(
@@ -69,7 +70,8 @@ object ClientMain {
             <.button("Add #", S.items.length + 1)
           )
         )
-      ).buildU
+      ).componentDidMount(_.backend.updateList())
+      .buildU
 
     React.render(ListApp(), dom.document.body)
   }
