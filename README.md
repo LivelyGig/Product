@@ -1,5 +1,7 @@
 # LivelyGig Product
 
+[![Join the chat at https://gitter.im/LivelyGig/Product](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/LivelyGig/Product?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is the skeleton of a web application which will use the LivelyGig protocol along with SpecialK. Currently, the front-end is written in Scala.js and routing is done with spray. For now, the front end is just a file browser for demonstration purposes.
 
 To run the LivelyGig web application:  
