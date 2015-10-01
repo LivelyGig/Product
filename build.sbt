@@ -77,7 +77,7 @@ lazy val webAppJVM = webAppCrossProject.jvm.dependsOn(api).settings(js2jvmSettin
 )
 
 lazy val api = project.in(file("api")).settings(
-  scalaVersion := "2.10.0",
+  scalaVersion := "2.10.4",
   resolvers ++= Seq(
     "spray repo" at "http://repo.spray.io/",
     "json4s repo" at "http://repo.scala-sbt.org/scalasbt/repo/",
