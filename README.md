@@ -1,25 +1,29 @@
-# LivelyGig Product Start
+# LivelyGig Product
 
-This tutorial project will essentially just be an environment to begin developing the actual product using Scala.js and Spray.
+This is the skeleton of a web application which will use the LivelyGig protocol along with SpecialK. Currently, the front-end is written in Scala.js and routing is done with spray. For now, the front end is just a file browser for demonstration purposes.
 
-Below is the original README for the tutorial project.
+To run the LivelyGig web application:  
 
-# Scala.js SPA-tutorial
+1.) Install sbt: http://www.scala-sbt.org/download.html
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ochrons/scalajs-spa-tutorial?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+2.) In the Product directory, run:
+```
+sbt
+```
+This will open sbt's interactive mode.
 
-Tutorial for creating a simple (but potentially complex!) Single Page Application with [Scala.js](http://www.scala-js.org/) and [Spray](http://spray.io/).
+3.) While in sbt's interactive mode:
+```
+re-start
+```
+and wait until the application is started. This will take a long time the first time it is run as it needs to download dependencies.
 
-## Purpose
+Lastly, go to `localhost:8080` in your browser.
 
-This project demonstrates typical design patterns and practices for developing SPAs with Scala.js with special focus on building a complete application.
-It started as a way to learn more about Scala.js and related libraries, but then I decided to make it more tutorial-like for the greater good :)
+To stop the application:
+```
+re-stop
+```
 
-The code covers typical aspects of building a SPA using Scala.js but it doesn't try to be an all-encompassing example for all the things possible with Scala.js.
-Before going through this tutorial, it would be helpful if you already know the basics of Scala.js and have read through the official
-[Scala.js tutorial](http://www.scala-js.org/doc/tutorial.html) and the great e-book [Hands-on Scala.js](http://lihaoyi.github.io/hands-on-scala-js/#Hands-onScala.js)
-by [Li Haoyi (@lihaoyi)](https://github.com/lihaoyi).
 
-# Documentation
-
-Tutorial [documentation](https://ochrons.github.io/scalajs-spa-tutorial) is now presented as a GitBook.
+ 
