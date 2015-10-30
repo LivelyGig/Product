@@ -3,8 +3,25 @@
 import sbt.Keys._
 import spray.revolver.AppProcess
 import spray.revolver.RevolverPlugin.Revolver
+import laika.sbt.LaikaSbtPlugin.{LaikaPlugin, LaikaKeys}
+import LaikaKeys._
+LaikaPlugin.defaults
 
-lazy val webAppRoot = project.in(file("webapp")).
+//
+// SBT Tasks
+//
+
+// generate HTML from markdown
+sourceDirectories in Laika := Seq(new java.io.File("docs/src"))
+target in Laika := new java.io.File("docs/html")
+includeAPI in Laika := true
+
+
+//
+// Scala JS Project Settings
+//
+
+lazy val webAppRoot = project.in(file("lg-webapp")).
   aggregate(webAppJS, webAppJVM).
   settings(
     publish := {},
@@ -12,7 +29,7 @@ lazy val webAppRoot = project.in(file("webapp")).
   )
 
   
-val webAppCrossProject = crossProject.in(file("webapp")).settings(
+val webAppCrossProject = crossProject.in(file("lg-webapp")).settings(
   
   version := "0.1-SNAPSHOT",
   libraryDependencies ++= Seq(
@@ -68,15 +85,18 @@ lazy val webAppJS = webAppCrossProject.js.settings(
   }
 )
 
-
-lazy val webAppJVM = webAppCrossProject.jvm.dependsOn(api).settings(js2jvmSettings: _*).settings(
+lazy val webAppJVM = webAppCrossProject.jvm.dependsOn(devApi).settings(js2jvmSettings: _*).settings(
   // scala.js output is directed under "web/js" dir in the spaJVM project
   scalajsOutputDir := (classDirectory in Compile).value / "web" / "js",
   // reStart depends on running fastOptJS on the JS project
   Revolver.reStart <<= Revolver.reStart dependsOn (fastOptJS in(webAppJS, Compile))
 )
 
-lazy val api = project.in(file("api")).settings(
+//
+// Development API Project Settings
+//
+
+lazy val devApi = project.in(file("lg-devapi")).settings(
   scalaVersion := "2.10.4",
   resolvers ++= Seq(
     "spray repo" at "http://repo.spray.io/",
@@ -91,6 +111,35 @@ lazy val api = project.in(file("api")).settings(
     "org.json4s" %% "json4s-jackson" % "3.2.7",
     "com.biosimilarity.lift" % "specialK" % "1.1.8.0",
     //"com.protegra-ati" % "agentservices-store-ia" % "1.9.2-SNAPSHOT",
+    "com.rabbitmq" % "amqp-client" % "2.6.1",
+    "it.unibo.alice.tuprolog" % "tuprolog" % "2.1.1",
+    "com.thoughtworks.xstream" % "xstream" % "1.4.2",
+    "org.mongodb" %% "casbah" % "2.5.0",
+    "org.basex" % "basex-api" % "7.5",
+    "biz.source_code" % "base64coder" % "2010-09-21"
+  )  
+      
+)
+
+//
+// Production Node API Project Settings
+//
+
+lazy val node = project.in(file("lg-node")).settings(
+  scalaVersion := "2.10.4",
+  resolvers ++= Seq(
+    "spray repo" at "http://repo.spray.io/",
+    "json4s repo" at "http://repo.scala-sbt.org/scalasbt/repo/",
+    "biosim repo" at "http://biosimrepomirror.googlecode.com/svn/trunk/",
+    "basex repo" at "http://files.basex.org/maven/",
+    "basex-xqj repo" at "http://xqj.net/maven/"
+  ),
+  //resolvers += Resolver.sftp("protegra repo", "ftp://ftp.protegra.com/") as("ptg2certanonftp", "#Pdsizgr8!"),
+  libraryDependencies ++= Seq(
+    "org.json4s" %% "json4s-native" % "3.2.7",
+    "org.json4s" %% "json4s-jackson" % "3.2.7",
+    "com.biosimilarity.lift" % "specialK" % "1.1.8.0",
+    "com.protegra-ati" % "agentservices-store-ia" % "1.9.2-SNAPSHOT",
     "com.rabbitmq" % "amqp-client" % "2.6.1",
     "it.unibo.alice.tuprolog" % "tuprolog" % "2.1.1",
     "com.thoughtworks.xstream" % "xstream" % "1.4.2",
