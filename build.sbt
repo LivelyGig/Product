@@ -3,6 +3,24 @@
 import sbt.Keys._
 import spray.revolver.AppProcess
 import spray.revolver.RevolverPlugin.Revolver
+import laika.sbt.LaikaSbtPlugin.{LaikaPlugin, LaikaKeys}
+import LaikaKeys._
+LaikaPlugin.defaults
+
+
+//
+// SBT Tasks
+//
+
+// generate HTML from markdown
+sourceDirectories in Laika := Seq(new java.io.File("docs/src"))
+target in Laika := new java.io.File("docs/html")
+includeAPI in Laika := true
+
+
+//
+// Web App Settings
+//
 
 lazy val webAppRoot = project.in(file("webapp")).
   aggregate(webAppJS, webAppJVM).
@@ -75,6 +93,11 @@ lazy val webAppJVM = webAppCrossProject.jvm.dependsOn(api).settings(js2jvmSettin
   // reStart depends on running fastOptJS on the JS project
   Revolver.reStart <<= Revolver.reStart dependsOn (fastOptJS in(webAppJS, Compile))
 )
+
+
+//
+// API Settings
+//
 
 lazy val api = project.in(file("api")).settings(
   scalaVersion := "2.10.4",

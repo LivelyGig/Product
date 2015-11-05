@@ -2,7 +2,15 @@
 
 This is the skeleton of a web application which will use the LivelyGig protocol along with SpecialK. Currently, the front-end is written in Scala.js and routing is done with spray. For now, the front end is just a file browser for demonstration purposes.
 
-To run the LivelyGig web application:  
+## Documentation
+
+LivelyGig docs are located in the `docs` folder. You can browse the docs as HTML by pointing your browser to the index file located at `docs/html`.
+
+If you need to re-generate the docs, you can run the command `sbt leika:site`.
+
+## Getting Started
+
+To run the LivelyGig web application:
 
 1.) Install sbt: http://www.scala-sbt.org/download.html
 
