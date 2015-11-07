@@ -167,92 +167,111 @@
                     ]
                 },
                 {
-                    "id": "50230ad6-db72-4f61-9302-1ed180381ae6",
-                    "functor": "default label views",
+                    "id": "423e1b38-fbfe-48a0-a05c-84bf08a742a6",
+                    "functor": "tabs",
                     "components": [
                         {
-                            "id": "282e33bc-1d28-41de-a4e0-ab5e121fd416",
-                            "functor": "version",
+                            "id": "d725dec8-e8e2-48fc-b14a-37e4c3112078",
+                            "functor": "Talent",
                             "components": [
                                 {
-                                    "value": "1",
-                                    "type": "integer"
-                                }
-                            ]
-                        },
-                        {
-                            "id": "3494ac7b-8cf5-4307-ac73-5e968ba6e8c1",
-                            "functor": "label views",
-                            "components": [
-                                {
-                                    "id": "8781f062-9393-4e03-b4e9-db144c4c7afb",
-                                    "functor": "tab",
+                                    "id": "3494ac7b-8cf5-4307-ac73-5e968ba6e8c1",
+                                    "functor": "label views",
                                     "components": [
                                         {
-                                            "value": "projects",
-                                            "type": "string"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "id": "61017577-5864-425e-b009-d4be2cb7701a",
-                                    "functor": "label view",
-                                    "components": [
-                                        {
-                                            "id": "becc9768-6419-447a-9b46-f67d73baa713",
-                                            "functor": "label name",
+                                            "id": "61017577-5864-425e-b009-d4be2cb7701a",
+                                            "functor": "Skills",
                                             "components": [
                                                 {
-                                                    "value": "Skills",
-                                                    "type": "string"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "id": "423e1b38-fbfe-48a0-a05c-84bf08a742a6",
-                                            "functor": "label pointer",
-                                            "components": [
-                                                {
-                                                    "value": "9a36211f-8b6e-4d88-8f25-a85b1d2e22b6",
-                                                    "type": "string"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "id": "d725dec8-e8e2-48fc-b14a-37e4c3112078",
-                                            "functor": "control type",
-                                            "components": [
-                                                {
-                                                    "value": "autotype label",
-                                                    "type": "string"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "id": "5100d145-4861-46fd-8468-fc2ffd0190bd",
-                                            "functor": "defaults",
-                                            "components": [
-                                                {
-                                                    "id": "b6ba2596-c68c-42c0-8616-88f587b13c73",
-                                                    "functor": "value",
+                                                    "id": "1ba4e719-a5c1-40c1-9f8b-8e52327d1d65",
+                                                    "functor": "label pointer",
                                                     "components": [
                                                         {
-                                                            "value": "b48bfe5a-15fa-4d8e-b253-752b51c2b94b",
+                                                            "value": "9a36211f-8b6e-4d88-8f25-a85b1d2e22b6",
                                                             "type": "string"
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    "id": "fe1231ed-b7b3-402a-be70-b95659ccc9b1",
-                                                    "functor": "value",
+                                                    "id": "cbcad273-2e4c-480e-9cac-7b3c80279978",
+                                                    "functor": "control type",
                                                     "components": [
                                                         {
-                                                            "value": "ef6a7b08-beaf-4c8a-994f-dcbed4a37909",
+                                                            "value": "autotype label",
                                                             "type": "string"
                                                         }
                                                     ]
                                                 }
                                             ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "d8f11ab7-34ee-4103-9074-8a01bd9d9171",
+                                    "functor": "views",
+                                    "components": [
+                                        {
+                                            "id": "9b2cf615-b141-4cb2-b5fe-caf8f6da4489",
+                                            "functor": "Suggested Matches",
+                                            "components": [
+                                                {
+                                                    "id": "000cf190-a398-4090-895f-2ca59318b931",
+                                                    "functor": "prefill in control",
+                                                    "components": [
+                                                        {
+                                                            "id": "02b747e3-4d75-4a1e-be0e-72f1abab65a1",
+                                                            "functor": "label view ID",
+                                                            "components": [
+                                                                {
+                                                                    "value": "61017577-5864-425e-b009-d4be2cb7701a",
+                                                                    "type": "string"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "aa448561-45f2-4daa-8856-113bba79043e",
+                                                            "functor": "defaults",
+                                                            "components": [
+                                                                {
+                                                                    "id": "a980d2b2-2417-4e84-84c0-d972ef04c2ae",
+                                                                    "functor": "value",
+                                                                    "components": [
+                                                                        {
+                                                                            "value": "b48bfe5a-15fa-4d8e-b253-752b51c2b94b",
+                                                                            "type": "string"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "b9335453-8b5c-46cd-bc21-1cddfeddcfd2",
+                                                                    "functor": "value",
+                                                                    "components": [
+                                                                        {
+                                                                            "value": "ef6a7b08-beaf-4c8a-994f-dcbed4a37909",
+                                                                            "type": "string"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "07a535ac-000c-460a-b805-d5b52cbdb427",
+                                                    "functor": "invisible",
+                                                    "components": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "9098afac-7d71-4c0f-be9d-2570d2cac3ff",
+                                            "functor": "Available",
+                                            "components": []
+                                        },
+                                        {
+                                            "id": "dc2b1851-ec91-453c-8416-a0fc693498e0",
+                                            "functor": "Inactive",
+                                            "components": []
                                         }
                                     ]
                                 }
