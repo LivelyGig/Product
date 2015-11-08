@@ -57,10 +57,10 @@ val webAppCrossProject = crossProject.in(file("webapp")).settings(
   name := "Server",
   scalaVersion := "2.10.4",
   libraryDependencies ++= Seq(
-    "io.spray" %% "spray-can" % "1.3.1",
-    "io.spray" %% "spray-routing" % "1.3.1",
-    "com.typesafe.akka" %% "akka-actor" % "2.3.2",
-    "org.webjars" % "bootstrap" % "3.2.0"
+    "io.spray"              %% "spray-can"              % "1.3.1",
+    "io.spray"              %% "spray-routing"          % "1.3.1",
+    "com.typesafe.akka"     %% "akka-actor"             % "2.3.2",
+    "org.webjars"           %  "bootstrap"              % "3.2.0"
   )
 )
 
@@ -110,16 +110,16 @@ lazy val api = project.in(file("api")).settings(
   ),
   //resolvers += Resolver.sftp("protegra repo", "ftp://ftp.protegra.com/") as("ptg2certanonftp", "#Pdsizgr8!"),
   libraryDependencies ++= Seq(
-    "org.json4s" %% "json4s-native" % "3.2.7",
-    "org.json4s" %% "json4s-jackson" % "3.2.7",
-    "com.biosimilarity.lift" % "specialK" % "1.1.8.0",
+   "org.json4s"                     %% "json4s-native"        % "3.2.7",
+    "org.json4s"                    %% "json4s-jackson"       % "3.2.7",
+    "com.biosimilarity.lift"        %  "specialK"              % "1.1.8.0",
     //"com.protegra-ati" % "agentservices-store-ia" % "1.9.2-SNAPSHOT",
-    "com.rabbitmq" % "amqp-client" % "2.6.1",
-    "it.unibo.alice.tuprolog" % "tuprolog" % "2.1.1",
-    "com.thoughtworks.xstream" % "xstream" % "1.4.2",
-    "org.mongodb" %% "casbah" % "2.5.0",
-    "org.basex" % "basex-api" % "7.5",
-    "biz.source_code" % "base64coder" % "2010-09-21"
+    "com.rabbitmq"                  %  "amqp-client"           % "2.6.1",
+    "it.unibo.alice.tuprolog"       %  "tuprolog"              % "2.1.1",
+    "com.thoughtworks.xstream"      %  "xstream"               % "1.4.2",
+    "org.mongodb"                   %% "casbah"               % "2.5.0",
+    "org.basex"                     %  "basex-api"            % "7.5",
+    "biz.source_code"               %  "base64coder"          % "2010-09-21"
   )  
       
 )

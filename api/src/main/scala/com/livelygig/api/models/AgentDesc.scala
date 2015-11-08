@@ -1,0 +1,43 @@
+package com.livelygig.api.models
+
+import java.util.UUID
+import org.json4s._
+import org.json4s.JsonDSL._
+import org.json4s.jackson.JsonMethods._
+import org.json4s.jackson.Serialization.write
+
+
+/**
+ * Describes a LivelyGig Agent.
+ * @param id
+ * @param loginId
+ * @param pwd
+ * @param firstName
+ * @param lastName
+ * @param profilePic
+ * @param contacts
+ * @param initialPosts
+ * @param bindings
+ */
+case class AgentDesc(
+  id: UUID,
+  loginId: String,
+  pwd: String,
+  firstName: String,
+  lastName: String,
+  profilePic: String,
+  contacts: ContactDesc,
+  initialPosts: List[PostDesc],
+  bindings: List[String]
+) {
+
+  def apply(json: String) = parse(json).extract[AgentDesc]
+
+  /**
+   * Serializes to JSON.
+   * @return JSON String.
+   */
+  def toJson = write(this)
+
+  implicit val formats = DefaultFormats
+}
