@@ -31,8 +31,6 @@ case class AgentDesc(
   bindings: List[String]
 ) {
 
-  def apply(json: String) = parse(json).extract[AgentDesc]
-
   /**
    * Serializes to JSON.
    * @return JSON String.
@@ -40,4 +38,17 @@ case class AgentDesc(
   def toJson = write(this)
 
   implicit val formats = DefaultFormats
+}
+
+object AgentDesc {
+
+  implicit val formats = DefaultFormats
+
+  /**
+   * Parses an object from JSON.
+   * @param json
+   * @return
+   */
+  def fromJson(json: String) = parse(json).extract[AgentDesc]
+
 }

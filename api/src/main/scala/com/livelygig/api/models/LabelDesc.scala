@@ -19,8 +19,6 @@ case class LabelDesc(
   `type`: String
 ) {
 
-  def apply(json: String) = parse(json).extract[LabelDesc]
-
   /**
    * Serializes to JSON.
    * @return JSON String.
@@ -28,4 +26,17 @@ case class LabelDesc(
   def toJson = write(this)
 
   implicit val formats = DefaultFormats
+}
+
+object LabelDesc {
+
+  implicit val formats = DefaultFormats
+
+  /**
+   * Parses an object from JSON.
+   * @param json
+   * @return
+   */
+  def fromJson(json: String) = parse(json).extract[LabelDesc]
+
 }

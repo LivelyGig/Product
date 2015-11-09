@@ -14,8 +14,6 @@ case class ContactDesc(
   channels: List[ChannelDesc]
 ) {
 
-  def apply(json: String) = parse(json).extract[ContactDesc]
-
   /**
    * Serializes to JSON.
    * @return JSON String.
@@ -23,4 +21,17 @@ case class ContactDesc(
   def toJson = write(this)
 
   implicit val formats = DefaultFormats
+}
+
+object ContactDesc {
+
+  implicit val formats = DefaultFormats
+
+  /**
+   * Parses an object from JSON.
+   * @param json
+   * @return
+   */
+  def fromJson(json: String) = parse(json).extract[ContactDesc]
+
 }

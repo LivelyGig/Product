@@ -19,8 +19,6 @@ case class ConnectionDesc(
   label: LabelDesc
 ) {
 
-  def apply(json: String) = parse(json).extract[ConnectionDesc]
-
   /**
    * Serializes to JSON.
    * @return JSON String.
@@ -28,4 +26,17 @@ case class ConnectionDesc(
   def toJson = write(this)
 
   implicit val formats = DefaultFormats
+}
+
+object ConnectionDesc {
+
+  implicit val formats = DefaultFormats
+
+  /**
+   * Parses an object from JSON.
+   * @param json
+   * @return
+   */
+  def fromJson(json: String) = parse(json).extract[ConnectionDesc]
+
 }

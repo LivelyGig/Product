@@ -18,8 +18,6 @@ case class DataSetDesc(
   connections: List[ConnectionDesc]
 ) {
 
-  def apply(json: String) = parse(json).extract[DataSetDesc]
-
   /**
    * Serializes to JSON.
    * @return JSON String.
@@ -27,4 +25,17 @@ case class DataSetDesc(
   def toJson = write(this)
 
   implicit val formats = DefaultFormats
+}
+
+object DataSetDesc {
+
+  implicit val formats = DefaultFormats
+
+  /**
+   * Parses an object from JSON.
+   * @param json
+   * @return
+   */
+  def fromJson(json: String) = parse(json).extract[DataSetDesc]
+
 }

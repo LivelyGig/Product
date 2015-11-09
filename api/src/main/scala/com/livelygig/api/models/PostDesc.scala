@@ -23,8 +23,6 @@ case class PostDesc(
   targets: List[UUID]
 ) {
 
-  def apply(json: String) = parse(json).extract[PostDesc]
-
   /**
    * Serializes to JSON.
    * @return JSON String.
@@ -32,5 +30,18 @@ case class PostDesc(
   def toJson = write(this)
 
   implicit val formats = DefaultFormats
+}
+
+object PostDesc {
+
+  implicit val formats = DefaultFormats
+
+  /**
+   * Parses an object from JSON.
+   * @param json
+   * @return
+   */
+  def fromJson(json: String) = parse(json).extract[PostDesc]
+
 }
 
