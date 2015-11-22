@@ -176,7 +176,7 @@
                             "components": [
                                 {
                                     "id": "3494ac7b-8cf5-4307-ac73-5e968ba6e8c1",
-                                    "functor": "label views",
+                                    "functor": "Query label views",
                                     "components": [
                                         {
                                             "id": "61017577-5864-425e-b009-d4be2cb7701a",
@@ -203,12 +203,142 @@
                                                     ]
                                                 }
                                             ]
+                                        },
+                                        {
+                                            "id": "6f8b82c4-a0ce-469b-990f-4779558f661b",
+                                            "functor": "Categories",
+                                            "components": [
+                                                {
+                                                    "id": "1ba4e719-a5c1-40c1-9f8b-8e52327d1d65",
+                                                    "functor": "label pointer",
+                                                    "components": [
+                                                        {
+                                                            "value": "",
+                                                            "type": "string"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "cbcad273-2e4c-480e-9cac-7b3c80279978",
+                                                    "functor": "control type",
+                                                    "components": [
+                                                        {
+                                                            "value": "checkbox tree",
+                                                            "type": "string"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "a306a1b6-303a-4e19-9b75-5bacd51aced4",
+                                            "functor": "Price Range",
+                                            "components": [
+                                                {
+                                                    "id": "1ba4e719-a5c1-40c1-9f8b-8e52327d1d65",
+                                                    "functor": "label pointer",
+                                                    "components": [
+                                                        {
+                                                            "value": "",
+                                                            "type": "string"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "cbcad273-2e4c-480e-9cac-7b3c80279978",
+                                                    "functor": "control type",
+                                                    "components": [
+                                                        {
+                                                            "value": "checkbox basic filters",
+                                                            "type": "string"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "b9cf78ff-c99f-47f9-9f01-3a81d30ffd54",
+                                            "functor": "Posted Date",
+                                            "components": [
+                                                {
+                                                    "id": "1ba4e719-a5c1-40c1-9f8b-8e52327d1d65",
+                                                    "functor": "label pointer",
+                                                    "components": [
+                                                        {
+                                                            "value": "",
+                                                            "type": "string"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "cbcad273-2e4c-480e-9cac-7b3c80279978",
+                                                    "functor": "control type",
+                                                    "components": [
+                                                        {
+                                                            "value": "checkbox date picker",
+                                                            "type": "string"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "1a184b94-4783-4d5d-9453-2a3499dfad5c",
+                                            "functor": "Interests",
+                                            "components": [
+                                                {
+                                                    "id": "1ba4e719-a5c1-40c1-9f8b-8e52327d1d65",
+                                                    "functor": "label pointer",
+                                                    "components": [
+                                                        {
+                                                            "value": "",
+                                                            "type": "string"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "cbcad273-2e4c-480e-9cac-7b3c80279978",
+                                                    "functor": "control type",
+                                                    "components": [
+                                                        {
+                                                            "value": "",
+                                                            "type": "string"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "6adaac5d-6a35-414d-93d7-1a29655a2eba",
+                                            "functor": "Channels",
+                                            "components": [
+                                                {
+                                                    "id": "1ba4e719-a5c1-40c1-9f8b-8e52327d1d65",
+                                                    "functor": "label pointer",
+                                                    "components": [
+                                                        {
+                                                            "value": "",
+                                                            "type": "string"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "cbcad273-2e4c-480e-9cac-7b3c80279978",
+                                                    "functor": "control type",
+                                                    "components": [
+                                                        {
+                                                            "value": "",
+                                                            "type": "string"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         }
                                     ]
                                 },
                                 {
                                     "id": "d8f11ab7-34ee-4103-9074-8a01bd9d9171",
-                                    "functor": "views",
+                                    "functor": "Views",
                                     "components": [
                                         {
                                             "id": "9b2cf615-b141-4cb2-b5fe-caf8f6da4489",
@@ -271,6 +401,156 @@
                                         {
                                             "id": "dc2b1851-ec91-453c-8416-a0fc693498e0",
                                             "functor": "Inactive",
+                                            "components": []
+                                        },
+                                        {
+                                            "id": "4a01fa3e-540b-4573-9d79-91c9f1a7b654",
+                                            "functor": "Suppressed",
+                                            "components": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3058b36f-653a-41ec-81bd-3f78e1477cc1",
+                            "functor": "Messages",
+                            "components": [
+                                {
+                                    "id": "b439ea85-7096-4bae-8802-da229be5ae4a",
+                                    "functor": "Views",
+                                    "components": [
+                                        {
+                                            "id": "df7e141a-3a23-4644-a35a-5a5ab63bd108",
+                                            "functor": "Active",
+                                            "components": []
+                                        },
+                                        {
+                                            "id": "c64ba20b-b434-458e-8a23-44974d1f1ea4",
+                                            "functor": "Unread",
+                                            "components": []
+                                        },
+                                        {
+                                            "id": "877b5a09-caeb-4190-bfc2-86e7dcd37c47",
+                                            "functor": "Archive",
+                                            "components": []
+                                        },
+                                        {
+                                            "id": "0b23d539-9edc-46de-acfe-8207da026e85",
+                                            "functor": "Sent",
+                                            "components": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "282e0b23-46c6-40bf-95db-4acb740c0e2d",
+                            "functor": "Projects",
+                            "components": [
+                                {
+                                    "id": "47ed753e-9249-413d-b9ec-d863f52fdf72",
+                                    "functor": "Views",
+                                    "components": [
+                                        {
+                                            "id": "1da19a46-c464-4206-9eda-84c48b044b4d",
+                                            "functor": "Suggested Matches",
+                                            "components": []
+                                        },
+                                        {
+                                            "id": "9c23bd65-4cb0-4591-9c94-7e81898152c8",
+                                            "functor": "Active",
+                                            "components": []
+                                        },
+                                        {
+                                            "id": "58b750b5-cecb-4dd8-a311-7aaedd8adbb8",
+                                            "functor": "Closed",
+                                            "components": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "18d5724e-f033-491d-8d4f-16f7e40ade6d",
+                            "functor": "Offerings",
+                            "components": [
+                                {
+                                    "id": "ccb96c1c-a988-451f-9571-1eeb433fc701",
+                                    "functor": "Views",
+                                    "components": [
+                                        {
+                                            "id": "c936a20d-eae4-4735-a590-e03640b9c3c6",
+                                            "functor": "Suggested Matches",
+                                            "components": []
+                                        },
+                                        {
+                                            "id": "a2fe26e2-5732-4b6c-aef2-0046a07ad6ed",
+                                            "functor": "Inactive",
+                                            "components": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "430e815d-484d-47cc-ade4-3cfa6f921a27",
+                            "functor": "Connections",
+                            "components": [
+                                {
+                                    "id": "28bfd38d-da77-45fc-b6d6-ba4c95e9bdb2",
+                                    "functor": "Views",
+                                    "components": [
+                                        {
+                                            "id": "264a2270-2007-44fa-b502-0d8b985561e1",
+                                            "functor": "All",
+                                            "components": []
+                                        },
+                                        {
+                                            "id": "56af6067-4eae-42ad-9b63-d370698b3229",
+                                            "functor": "Favorites",
+                                            "components": []
+                                        },
+                                        {
+                                            "id": "30a24a1b-971f-4c0b-b5aa-2ddf31315017",
+                                            "functor": "Frequent Posters",
+                                            "components": []
+                                        },
+                                        {
+                                            "id": "9d7c4686-200f-46c2-9d59-fe5b1c9687b3",
+                                            "functor": "Suppressed",
+                                            "components": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0ab6f2f6-7661-4237-8aa8-7a558dc115c1",
+                            "functor": "Contracts",
+                            "components": [
+                                {
+                                    "id": "731b55f5-5a2b-4933-a55c-120736f20f0f",
+                                    "functor": "Views",
+                                    "components": [
+                                        {
+                                            "id": "37ae3bde-4c1c-4594-a19e-aa6672637d07",
+                                            "functor": "All",
+                                            "components": []
+                                        },
+                                        {
+                                            "id": "e5d7f00d-a7ad-47fc-afb2-3bc6cbb7f64d",
+                                            "functor": "Current",
+                                            "components": []
+                                        },
+                                        {
+                                            "id": "b672b72a-eb3a-41e4-9091-61424a8fb920",
+                                            "functor": "Bidding",
+                                            "components": []
+                                        },
+                                        {
+                                            "id": "488506ec-c7aa-4010-97c9-5537ba608cd9",
+                                            "functor": "Closed",
                                             "components": []
                                         }
                                     ]
@@ -1096,8 +1376,54 @@
                     ]
                 },
                 {
+                    "id": "4f6f4c0a-7142-4585-a814-9ba69b08dae4",
+                    "functor": "ProjectCategory",
+                    "components": [
+                        {
+                            "id": "18a204b8-d9fb-4b85-badc-6771ee2313dd",
+                            "functor": "Software",
+                            "components": [
+                                {
+                                    "value": "",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f5261965-e9d8-494f-884f-69c7799c6553",
+                            "functor": "Design",
+                            "components": [
+                                {
+                                    "value": "",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "18a29610-2868-4ad9-a0a7-6de594f45dd2",
+                            "functor": "Content Management",
+                            "components": [
+                                {
+                                    "value": "",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "8208837f-8eb5-44e8-aa91-3e54973222fd",
+                            "functor": "Microtask",
+                            "components": [
+                                {
+                                    "value": "",
+                                    "type": "string"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "id": "70d14638-c57f-4e68-b213-364379465eb3",
-                    "functor": "AgentLists",
+                    "functor": "UserLists",
                     "components": [
                         {
                             "id": "128c6a1d-c4cf-4eeb-be88-16cdb0a5885b",
@@ -1118,6 +1444,82 @@
                             "id": "a120b2a1-db33-407f-92d8-263cf0871566",
                             "functor": "IgnoredProjects",
                             "components": []
+                        },
+                        {
+                            "id": "94a462ed-6f6d-4af3-9ee4-3f47df2181ae",
+                            "functor": "FavoriteConnections",
+                            "components": []
+                        },
+                        {
+                            "id": "a8b474a4-493a-4e98-9fb8-c50ed262cc51",
+                            "functor": "ConnectionGroups",
+                            "components": []
+                        }
+                    ]
+                },
+                {
+                    "id": "03bf1cae-8c5e-4ac4-9ed9-e00cd10fa5d4",
+                    "functor": "UserNetworkStatus",
+                    "components": [
+                        {
+                            "id": "1e4579f9-18c5-4b21-bd64-cfc16e652cb9",
+                            "functor": "Online",
+                            "components": [
+                                {
+                                    "value": "",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "bb8b59c8-654a-4674-bc9e-1751a5a58e08",
+                            "functor": "Offline",
+                            "components": [
+                                {
+                                    "value": "",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b4f9ba66-e331-4b2d-b4a4-464ab215d66d",
+                            "functor": "On vacation",
+                            "components": [
+                                {
+                                    "value": "",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e6b52e2d-8f29-4828-8bf9-7300863cd249",
+                            "functor": "Be right back",
+                            "components": [
+                                {
+                                    "value": "",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5ec526f0-618d-4659-ac4f-6917fc2bfad0",
+                            "functor": "Away",
+                            "components": [
+                                {
+                                    "value": "",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "fcd3453f-49a1-4bc8-b13d-af38cc36cea1",
+                            "functor": "Custom",
+                            "components": [
+                                {
+                                    "value": "",
+                                    "type": "string"
+                                }
+                            ]
                         }
                     ]
                 }
