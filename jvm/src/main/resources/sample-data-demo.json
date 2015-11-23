@@ -1,12 +1,6 @@
-// -*- mode: Javascript;-*- 
-// Filename: sample-data-demo.json 
-// Authors: ee
-// Creation: Thu November 2 22:00:00 2015 
-// Copyright: Not supplied 
-// Description: This file is generated from Excel file of similar name, with some copy-paste.  Run through jsonlint.com first without comments to improve indentation and formatting.
-// ------------------------------------------------------------------------
 {
-    "agents": [
+    "labels": [],
+	"agents": [
         {
             "id": "768fd55e-2295-4511-9e19-04a8f29f9d9e",
             "loginId": "livelygig",
