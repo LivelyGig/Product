@@ -27,13 +27,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_livelygig@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 2",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -55,13 +56,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_pbennett@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 3",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -83,13 +85,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mnori@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 4",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -111,13 +114,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_anarayan@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 5",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -139,13 +143,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_ibabu@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 6",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -167,13 +172,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mrao@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 7",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -195,13 +201,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_nuppal@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 8",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -223,13 +230,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_ateja@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 9",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -251,13 +259,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_sbalan@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 10",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -279,13 +288,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_bbhattacharya@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 11",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -307,13 +317,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mpawar@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 12",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -335,13 +346,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_uchauha@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 13",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -363,13 +375,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_sraina@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 14",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -391,13 +404,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_atipnis@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 15",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -419,13 +433,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_gsami@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 16",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -447,13 +462,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mkant@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 17",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -475,13 +491,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_dbhardwaj@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 18",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -503,13 +520,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mnarula@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 19",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -531,13 +549,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_aviswanathan@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 20",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -559,13 +578,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_ybadal@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 21",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -587,13 +607,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mthakur@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 22",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -615,13 +636,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_vdey@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 23",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -643,13 +665,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mharrison@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 24",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -671,13 +694,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_erice@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 25",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -699,13 +723,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_jhart@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 26",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -727,13 +752,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_jlawson@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 27",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -755,13 +781,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_jdean@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 28",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -783,13 +810,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_hhorton@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 29",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -811,13 +839,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_lfrank@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 30",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -839,13 +868,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mhill@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 31",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -867,13 +897,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_nmendez@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 32",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -895,13 +926,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_gmiller@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 33",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -923,13 +955,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_jreed@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 34",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -951,13 +984,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_danderson@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 35",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -979,13 +1013,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_wcoleman@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 36",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -1007,13 +1042,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mmartin@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 37",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -1035,13 +1071,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_iperry@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 38",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -1063,13 +1100,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_rperez@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 39",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -1091,13 +1129,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mmorris@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 40",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -1119,13 +1158,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_rmurphy@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 41",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -1147,13 +1187,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_ethomas@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 42",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -1175,13 +1216,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_kmoore@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 43",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -1203,13 +1245,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_dmoore@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 44",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -1231,13 +1274,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_hdreesens@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 45",
+                    "contentType": "message",
                     "labels": [
                         "b48bfe5a-15fa-4d8e-b253-752b51c2b94b"
                     ],
@@ -1259,13 +1303,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_lborde@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 46",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1287,13 +1332,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mdragomirov@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 47",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1315,13 +1361,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_dcastro@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 48",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1343,13 +1390,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_rvogts@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 49",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1371,13 +1419,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_sseward@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 50",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1399,13 +1448,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mstilo@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 51",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1427,13 +1477,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_iungaro@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 52",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1455,13 +1506,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_famador@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 53",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1483,13 +1535,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mlamberti@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 54",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1511,13 +1564,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_tantall@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 55",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1539,13 +1593,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mdonalds@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 56",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1567,13 +1622,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_svincent@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 57",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1595,13 +1651,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_kdragic@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 58",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1623,13 +1680,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_rsarkozi@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 59",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1651,13 +1709,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_ghall@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 60",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1679,13 +1738,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_myap@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 61",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1707,13 +1767,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_csalvage@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 62",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1735,13 +1796,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_dnagy@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 63",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1763,13 +1825,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_kestévez@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 64",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1791,13 +1854,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mmachado@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 65",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1819,13 +1883,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_dbenitez@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 66",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1847,13 +1912,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_apage@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 67",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1875,13 +1941,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_alim@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 68",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1903,13 +1970,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_ymasson@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 69",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1931,13 +1999,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_cmendel@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 70",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1959,13 +2028,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_lchevrolet@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 71",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -1987,13 +2057,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_esheinfeld@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 72",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -2015,13 +2086,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_ddaniau@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 73",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -2043,13 +2115,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_tzhu@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 74",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -2071,13 +2144,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_mhakim@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 75",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -2099,13 +2173,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_aamirmoez@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 76",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -2127,13 +2202,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_tel-mofty@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 77",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -2155,13 +2231,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_zhakim@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 78",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -2183,13 +2260,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_sxun@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 79",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -2211,13 +2289,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_kabdulrashid@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 80",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -2239,13 +2318,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_iliao@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 81",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -2267,13 +2347,14 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_bsaqqaf@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 82",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -2288,20 +2369,21 @@
             "id": "95580059-5628-403f-81c8-a3c5aa4d91ec",
             "loginId": "ralfarsi",
             "pwd": "livelygig",
-            "firstName": "Ra'd",
+            "firstName": "Rad",
             "lastName": "Alfarsi",
             "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_ralfarsi@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
             "initialPosts": [
                 {
                     "content": "Yata! 83",
+                    "contentType": "message",
                     "labels": [
                         "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
                     ],
@@ -2318,7 +2400,7 @@
             "pwd": "community",
             "firstName": "Abed",
             "lastName": "Nadir",
-            "profilePic": "",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "bindings": [
                 {
                     "label": "128c6a1d-c4cf-4eeb-be88-16cdb0a5885b",
@@ -2331,11 +2413,23 @@
                 "channels": [
                     {
                         "url": "mailto:livelygig_anadir@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 84",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "8ce7d7d3-4c83-48a5-b3b5-1eb0400f0408",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "97c8738f-a95b-4e35-a8b2-bac9cb0e14d1",
@@ -2343,16 +2437,28 @@
             "pwd": "community",
             "firstName": "Troy",
             "lastName": "Barnes",
-            "profilePic": "",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_tbarnes@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 85",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "97c8738f-a95b-4e35-a8b2-bac9cb0e14d1",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "0aa85ff5-d572-400b-acd0-497c17641601",
@@ -2360,16 +2466,28 @@
             "pwd": "community",
             "firstName": "Annie",
             "lastName": "Eddison",
-            "profilePic": "",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_aeddison@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 86",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "0aa85ff5-d572-400b-acd0-497c17641601",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "2e1b5dfe-feb3-46ed-abc8-f7342f1d5d61",
@@ -2377,16 +2495,28 @@
             "pwd": "community",
             "firstName": "Britta",
             "lastName": "Perry",
-            "profilePic": "",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_bperry@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 87",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "2e1b5dfe-feb3-46ed-abc8-f7342f1d5d61",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "96af8409-0805-4b62-84fe-f434572e6c9f",
@@ -2394,16 +2524,28 @@
             "pwd": "community",
             "firstName": "Shirley",
             "lastName": "Bennett",
-            "profilePic": "",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_sbennett@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 88",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "96af8409-0805-4b62-84fe-f434572e6c9f",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "96d82e92-a79f-454d-bf2b-fe27b3b36871",
@@ -2411,16 +2553,28 @@
             "pwd": "community",
             "firstName": "Jeff",
             "lastName": "Winger",
-            "profilePic": "",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_jwinger@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 89",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "96d82e92-a79f-454d-bf2b-fe27b3b36871",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "5f172d03-3a60-4e59-94fa-a4190d416260",
@@ -2428,16 +2582,28 @@
             "pwd": "community",
             "firstName": "Pierce",
             "lastName": "Hawthorn",
-            "profilePic": "",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_phawthorn@mailinator.com",
-                        "chanType": "email"
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 90",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "5f172d03-3a60-4e59-94fa-a4190d416260",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "60582911-c2cd-4c14-8513-d13b9cc8cbff",
@@ -2445,16 +2611,28 @@
             "pwd": "united",
             "firstName": "Dylan",
             "lastName": "Thomas",
-            "profilePic": "file://whitealbum/src/main/webapp/public/images/SynereoVideoDylanThomas1.jpeg",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_dthomas@mailinator.com",
-                        "chanType": ""
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 91",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "60582911-c2cd-4c14-8513-d13b9cc8cbff",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "d2dd3995-b195-49ad-9e21-d1b90f9edc29",
@@ -2462,16 +2640,28 @@
             "pwd": "united",
             "firstName": "Bob",
             "lastName": "Dylan",
-            "profilePic": "file://whitealbum/src/main/webapp/public/images/SynereoVideoBobDylan1.jpeg",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_bdylan@mailinator.com",
-                        "chanType": ""
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 92",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "d2dd3995-b195-49ad-9e21-d1b90f9edc29",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "95204302-2882-4c94-8631-5c494efeb2c2",
@@ -2479,16 +2669,28 @@
             "pwd": "united",
             "firstName": "Leonard",
             "lastName": "Cohen",
-            "profilePic": "file://whitealbum/src/main/webapp/public/images/SynereoVideoLeonardCohen1.jpeg",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_lcohen@mailinator.com",
-                        "chanType": ""
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 93",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "95204302-2882-4c94-8631-5c494efeb2c2",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "98e22eea-4bc7-4ea6-9196-ec995ff038f7",
@@ -2496,16 +2698,28 @@
             "pwd": "united",
             "firstName": "Mary",
             "lastName": "Oliver",
-            "profilePic": "file://whitealbum/src/main/webapp/public/images/SynereoVideoMaryOliver1.jpeg",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_moliver@mailinator.com",
-                        "chanType": ""
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 94",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "98e22eea-4bc7-4ea6-9196-ec995ff038f7",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "a2a73d30-274a-4173-b405-50a99eac3e2f",
@@ -2513,16 +2727,28 @@
             "pwd": "united",
             "firstName": "Patti",
             "lastName": "Smith",
-            "profilePic": "file://whitealbum/src/main/webapp/public/images/SynereoVideoPattiSmith1.jpeg",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_psmith@mailinator.com",
-                        "chanType": ""
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 95",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "a2a73d30-274a-4173-b405-50a99eac3e2f",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "09f536f2-99d5-4c6d-bee8-6209e4fa650b",
@@ -2530,16 +2756,28 @@
             "pwd": "united",
             "firstName": "Stan",
             "lastName": "Lee",
-            "profilePic": "file://whitealbum/src/main/webapp/public/images/SynereoVideoStanLee1.jpeg",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_slee@mailinator.com",
-                        "chanType": ""
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 96",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "09f536f2-99d5-4c6d-bee8-6209e4fa650b",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "727f1d78-d9e6-4d17-b36b-d30485942d02",
@@ -2547,16 +2785,28 @@
             "pwd": "united",
             "firstName": "Rebekah",
             "lastName": "Brooks",
-            "profilePic": "file://whitealbum/src/main/webapp/public/images/SynereoVideoRebekahBrooks1.jpeg",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_rbrooks@mailinator.com",
-                        "chanType": ""
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 97",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "727f1d78-d9e6-4d17-b36b-d30485942d02",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "aedaead9-fba3-4e87-a628-646e0064ca54",
@@ -2564,16 +2814,28 @@
             "pwd": "united",
             "firstName": "Sum",
             "lastName": "Phan",
-            "profilePic": "file://whitealbum/src/main/webapp/public/images/SynereoVideoSumPhan1.jpeg",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_sphan@mailinator.com",
-                        "chanType": ""
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 98",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "aedaead9-fba3-4e87-a628-646e0064ca54",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         },
         {
             "id": "179ee405-aa43-4b8a-9e94-a49dc3b3d07d",
@@ -2581,16 +2843,28 @@
             "pwd": "united",
             "firstName": "",
             "lastName": "UnitedFan",
-            "profilePic": "file://whitealbum/src/main/webapp/public/images/SynereoVideoUnitedFan1.jpeg",
+            "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhqCi-FONrFAs5jciS2vsNwFmQ6ni4Leo8-TXTw_KQ7BAVysl3g",
             "contacts": {
                 "channels": [
                     {
                         "url": "mailto:livelygig_unitedfan@mailinator.com",
-                        "chanType": ""
+                        "channelType": "email"
                     }
                 ]
             },
-            "initialPosts": []
+            "initialPosts": [
+                {
+                    "content": "Yata! 99",
+                    "contentType": "message",
+                    "labels": [
+                        "ef6a7b08-beaf-4c8a-994f-dcbed4a37909"
+                    ],
+                    "src": "179ee405-aa43-4b8a-9e94-a49dc3b3d07d",
+                    "trgts": [
+                        "768fd55e-2295-4511-9e19-04a8f29f9d9e"
+                    ]
+                }
+            ]
         }
     ],
     "cnxns": [
