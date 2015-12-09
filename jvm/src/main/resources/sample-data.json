@@ -10,6 +10,9 @@
 			"channels": [{
 				"url": "mailto:hiro.nakamura@gmail.com",
 				"channelType": "email"
+			}, {
+				"url": "https://twitter.com/hiro?lang=en",
+				"channelType": "twitter"
 			}]
 		},
 		"cnxns": [
@@ -188,6 +191,9 @@
 			"channels": [{
 				"url": "mailto:ando.masahashi@gmail.com",
 				"channelType": "email"
+			}, {
+				"url": "https://twitter.com/ando?lang=en",
+				"channelType": "twitter"
 			}]
 		},
 		"cnxns": [
@@ -215,6 +221,12 @@
 			"channels": [{
 				"url": "mailto:peter.petrelli@gmail.com",
 				"channelType": "email"
+			}, {
+				"url": "https://twitter.com/peter?lang=en",
+				"channelType": "twitter"
+			}, {
+				"url": "tel:+31123456789",
+				"channelType": "cell"
 			}]
 		},
 		"cnxns": [
@@ -242,6 +254,12 @@
 			"channels": [{
 				"url": "mailto:nathan.petrelli@gmail.com",
 				"channelType": "email"
+			}, {
+				"url": "https://twitter.com/nathan?lang=en",
+				"channelType": "twitter"
+			}, {
+				"url": "whatsapp://send?abid=Nathan&text=Yo!",
+				"channelType": "whatsapp"
 			}]
 		},
 		"cnxns": [
