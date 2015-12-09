@@ -1,7 +1,7 @@
 {
 	"agents": [{
 		"id": "886bd57a-142e-4a74-afb4-76d97850c5e0",
-		"loginID": "Hiro",
+		"loginId": "Hiro",
 		"pwd": "y@t@!",
 		"firstName": "Hiro",
 		"lastName": "Nakamura",
@@ -179,7 +179,7 @@
 
 	}, {
 		"id": "c5c997f7-0e70-4c6c-9192-64ec290c15d2",
-		"loginID": "Ando",
+		"loginId": "Ando",
 		"pwd": "N1ck134Luv",
 		"firstName": "Ando",
 		"lastName": "Masahashi",
@@ -206,7 +206,7 @@
 		}]
 	}, {
 		"id": "8801f117-b34c-4a5f-a8fc-499a69e38013",
-		"loginID": "Peter",
+		"loginId": "Peter",
 		"pwd": "h0sp1c3c@r3",
 		"firstName": "Peter",
 		"lastName": "Petrelli",
@@ -233,7 +233,7 @@
 		}]
 	}, {
 		"id": "001f0421-8dca-45aa-8f39-3e89b473c8c0",
-		"loginID": "Nathan",
+		"loginId": "Nathan",
 		"pwd": "s3n@t0r",
 		"firstName": "Nathan",
 		"lastName": "Petrelli",
