@@ -222,9 +222,6 @@
 				"channelType": "cell"
 			}]
 		},
-		"cnxns": [
-			"886bd57a-142e-4a74-afb4-76d97850c5e0"
-		],
 		"initialPosts": [{
 			"content": "Yata!",
 			"contentType": "message",
@@ -289,8 +286,15 @@
 	}, {
 		"src": "agent://001f0421-8dca-45aa-8f39-3e89b473c8c0",
 		"trgt": "agent://8801f117-b34c-4a5f-a8fc-499a69e38013"
-	}, {
+	}, 
+	{
+		"src": "agent://8801f117-b34c-4a5f-a8fc-499a69e38013",
+		"trgt": "agent://886bd57a-142e-4a74-afb4-76d97850c5e0"
+	},
+	{
 		"src": "agent://001f0421-8dca-45aa-8f39-3e89b473c8c0",
 		"trgt": "agent://886bd57a-142e-4a74-afb4-76d97850c5e0"
 	}]
 }
+
+
