@@ -15,10 +15,6 @@
 				"channelType": "twitter"
 			}]
 		},
-		"cnxns": [
-			"c5c997f7-0e70-4c6c-9192-64ec290c15d2",
-			"8801f117-b34c-4a5f-a8fc-499a69e38013"
-		],
 		"initialPosts": [{
 			"content": "Yata!",
 			"contentType": "message",
@@ -196,9 +192,6 @@
 				"channelType": "twitter"
 			}]
 		},
-		"cnxns": [
-			"886bd57a-142e-4a74-afb4-76d97850c5e0"
-		],
 		"initialPosts": [{
 			"content": "Yata!",
 			"contentType": "message",
@@ -262,10 +255,6 @@
 				"channelType": "whatsapp"
 			}]
 		},
-		"cnxns": [
-			"886bd57a-142e-4a74-afb4-76d97850c5e0",
-			"8801f117-b34c-4a5f-a8fc-499a69e38013"
-		],
 		"initialPosts": [{
 			"content": "Yata!",
 			"contentType": "message",
@@ -287,5 +276,21 @@
 		"id": "3a220183-9633-404a-9207-22ca372d1cbc",
 		"value": "#one-of-us-one-of-them",
 		"type": "string"
+	}],
+	"cnxns": [{
+		"src": "agent://886bd57a-142e-4a74-afb4-76d97850c5e0",
+		"trgt": "agent://c5c997f7-0e70-4c6c-9192-64ec290c15d2"
+	}, {
+		"src": "agent://886bd57a-142e-4a74-afb4-76d97850c5e0",
+		"trgt": "agent://8801f117-b34c-4a5f-a8fc-499a69e38013"
+	}, {
+		"src": "agent://c5c997f7-0e70-4c6c-9192-64ec290c15d2",
+		"trgt": "agent://886bd57a-142e-4a74-afb4-76d97850c5e0"
+	}, {
+		"src": "agent://001f0421-8dca-45aa-8f39-3e89b473c8c0",
+		"trgt": "agent://8801f117-b34c-4a5f-a8fc-499a69e38013"
+	}, {
+		"src": "agent://001f0421-8dca-45aa-8f39-3e89b473c8c0",
+		"trgt": "agent://886bd57a-142e-4a74-afb4-76d97850c5e0"
 	}]
 }
