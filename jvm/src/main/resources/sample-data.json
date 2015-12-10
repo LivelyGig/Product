@@ -1,7 +1,7 @@
 {
 	"agents": [{
 		"id": "886bd57a-142e-4a74-afb4-76d97850c5e0",
-		"loginId": "Hiro",
+		"loginId": "hiro",
 		"pwd": "livelygig",
 		"firstName": "Hiro",
 		"lastName": "Nakamura",
@@ -10,9 +10,6 @@
 			"channels": [{
 				"url": "mailto:livelygig-hiro@mailinator.com",
 				"channelType": "email"
-			}, {
-				"url": "https://twitter.com/hiro?lang=en",
-				"channelType": "twitter"
 			}]
 		},
 		"initialPosts": [{
@@ -178,7 +175,7 @@
 
 	}, {
 		"id": "c5c997f7-0e70-4c6c-9192-64ec290c15d2",
-		"loginId": "Ando",
+		"loginId": "ando",
 		"pwd": "livelygig",
 		"firstName": "Ando",
 		"lastName": "Masahashi",
@@ -187,9 +184,6 @@
 			"channels": [{
 				"url": "mailto:livelygig-ando@mailinator.com",
 				"channelType": "email"
-			}, {
-				"url": "https://twitter.com/ando?lang=en",
-				"channelType": "twitter"
 			}]
 		},
 		"initialPosts": [{
@@ -205,7 +199,7 @@
 		}]
 	}, {
 		"id": "8801f117-b34c-4a5f-a8fc-499a69e38013",
-		"loginId": "Peter",
+		"loginId": "peter",
 		"pwd": "livelygig",
 		"firstName": "Peter",
 		"lastName": "Petrelli",
@@ -214,12 +208,6 @@
 			"channels": [{
 				"url": "mailto:livelygig-peter@mailinator.com",
 				"channelType": "email"
-			}, {
-				"url": "https://twitter.com/peter?lang=en",
-				"channelType": "twitter"
-			}, {
-				"url": "tel:+31123456789",
-				"channelType": "cell"
 			}]
 		},
 		"initialPosts": [{
@@ -235,7 +223,7 @@
 		}]
 	}, {
 		"id": "001f0421-8dca-45aa-8f39-3e89b473c8c0",
-		"loginId": "Nathan",
+		"loginId": "nathan",
 		"pwd": "livelygig",
 		"firstName": "Nathan",
 		"lastName": "Petrelli",
@@ -244,12 +232,6 @@
 			"channels": [{
 				"url": "mailto:livelygig-nathan@mailinator.com",
 				"channelType": "email"
-			}, {
-				"url": "https://twitter.com/nathan?lang=en",
-				"channelType": "twitter"
-			}, {
-				"url": "whatsapp://send?abid=Nathan&text=Yo!",
-				"channelType": "whatsapp"
 			}]
 		},
 		"initialPosts": [{
