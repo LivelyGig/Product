@@ -48,8 +48,8 @@
 					"id": "92fc2b73-c99d-4102-b259-f5e88a1797f9",
 					"functor": "canForward",
 					"components": [{
-						"value": "0",
-						"type": "integer"
+						"value": "false",
+						"type": "boolean"
 					}]
 				}, {
 					"id": "6e239309-ebe1-4b46-9f8c-914101b5821e",
@@ -98,8 +98,8 @@
 					"id": "49ee0022-ddb3-4938-9e7b-cb80b4ec20c7",
 					"functor": "isCompleted",
 					"components": [{
-						"value": "0",
-						"type": "integer"
+						"value": "false",
+						"type": "boolean"
 					}]
 				}]
 			}, {
@@ -338,6 +338,17 @@
 					"components": [{
 						"value": "1",
 						"type": "integer"
+					}]
+				}]
+			}, {
+				"id": "7953f11e-1f0e-4bcd-bae3-56f400d1866c",
+				"functor": "connectionTypeSpec",
+				"components": [{
+					"id": "1aeb3264-65a1-4968-a555-257dc744325f",
+					"functor": "canIntroduce",
+					"components": [{
+						"value": "false",
+						"type": "boolean"
 					}]
 				}]
 			}, {
@@ -1606,6 +1617,7 @@
 				}]
 			}]
 		}
+
 
 	],
 	"agents": [{
