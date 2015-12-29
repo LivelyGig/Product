@@ -3,17 +3,6 @@
 			"id": "0683a16f-f16d-4af2-aa48-290dbdaf3af0",
 			"functor": "configuration",
 			"components": [{
-				"id": "e74a2f7d-2f0a-47f3-874f-83a8bab0fe9c",
-				"functor": "venueAgentTypeSpec",
-				"components": [{
-					"id": "b61dbdc2-e017-441d-872c-1de6d21bac03",
-					"functor": "specVersion",
-					"components": [{
-						"value": "1",
-						"type": "integer"
-					}]
-				}]
-			}, {
 				"id": "701e68b7-a7da-4d1e-a6a2-51407b553bb4",
 				"functor": "postTypeSpec",
 				"components": [{
@@ -22,6 +11,27 @@
 					"components": [{
 						"value": "1",
 						"type": "integer"
+					}]
+				}, {
+					"id": "3c998dce-d0b1-4896-8496-981d2daf90a3",
+					"functor": "authorizingAddress",
+					"components": [{
+						"value": "",
+						"type": "string"
+					}]
+				}, {
+					"id": "42dd8f44-dcf0-45c8-822c-0729f01b2f35",
+					"functor": "authorizingSignature",
+					"components": [{
+						"value": "",
+						"type": "string"
+					}]
+				}, {
+					"id": "28634967-03f5-4591-a63a-5d1107af9d31",
+					"functor": "pomotionTx",
+					"components": [{
+						"value": "",
+						"type": "string"
 					}]
 				}, {
 					"id": "e8e3173b-1c42-4a29-b026-699e9992dd1a",
@@ -117,31 +127,73 @@
 				"id": "cba62260-f2ec-4bfc-86fb-49c180c3987d",
 				"functor": "projectPostTypeSpec",
 				"components": [{
-					"id": "d160e8ad-6138-4b69-8a38-91470080dfc8",
+					"id": "50939b0d-b8f7-49dd-a641-12b5407faac1",
 					"functor": "specVersion",
 					"components": [{
 						"value": "1",
 						"type": "integer"
 					}]
 				}, {
-					"id": "8fbec6c7-eef7-46ae-a85c-b2f403b05d23",
+					"id": "57c639f4-2992-4556-992e-635ced7119d9",
 					"functor": "startDate",
 					"components": [{
 						"value": "2002-05-30T09:30:10Z",
 						"type": "date"
 					}]
 				}, {
-					"id": "2474f683-092c-490b-87e9-abf1ee4d772b",
+					"id": "d08d45c7-423e-42c9-85c9-7bc7fb9a7ea4",
+					"functor": "endDate",
+					"components": [{
+						"value": "2002-05-30T09:30:10Z",
+						"type": "date"
+					}]
+				}, {
+					"id": "49a38a6f-8b79-431d-9304-a5c09944c7af",
+					"functor": "requiredSkills",
+					"components": [{
+						"value": "",
+						"type": "string"
+					}]
+				}, {
+					"id": "fe05f85d-8217-4573-9009-4e3934c3b37b",
+					"functor": "projectCategories",
+					"components": [{
+						"value": "",
+						"type": "string"
+					}]
+				}, {
+					"id": "f8760bd5-372a-4670-9ed0-15354b5af21a",
+					"functor": "projectState",
+					"components": [{
+						"value": "",
+						"type": "string"
+					}]
+				}, {
+					"id": "9680baa1-2f8a-477f-a090-ed1b65e693d0",
 					"functor": "budget",
 					"components": [{
 						"value": "0",
 						"type": "float"
 					}]
 				}, {
-					"id": "3b8a6eba-7771-4faf-8ece-85d960d1b9f3",
+					"id": "f854055f-c79b-410c-b77a-d4d48534a8ac",
 					"functor": "budgetCurrency",
 					"components": [{
 						"value": "USD",
+						"type": "string"
+					}]
+				}, {
+					"id": "92bf80c8-8aa6-42fd-8b27-ed460329c3b0",
+					"functor": "workLocation",
+					"components": [{
+						"value": "",
+						"type": "string"
+					}]
+				}, {
+					"id": "f5ad7820-99bb-4df5-805e-92367c3f3f06",
+					"functor": "contractTemplate",
+					"components": [{
+						"value": "",
 						"type": "string"
 					}]
 				}]
@@ -224,6 +276,27 @@
 					"components": [{
 						"value": "",
 						"type": "string"
+					}]
+				}, {
+					"id": "6fa92229-82b6-4910-a13d-4bf6b08fc6e1",
+					"functor": "skills",
+					"components": [{
+						"value": "",
+						"type": "string"
+					}]
+				}, {
+					"id": "bffac230-c08c-4e45-bc61-5bb8588ec49b",
+					"functor": "availableFromDate",
+					"components": [{
+						"value": "",
+						"type": "date"
+					}]
+				}, {
+					"id": "bfefef51-5153-4af4-8f12-081d58130f8c",
+					"functor": "availableToDate",
+					"components": [{
+						"value": "",
+						"type": "date"
 					}]
 				}, {
 					"id": "9d2e0c89-9f55-4efc-a9ba-ea7e65116093",
@@ -344,6 +417,20 @@
 				"id": "7953f11e-1f0e-4bcd-bae3-56f400d1866c",
 				"functor": "connectionTypeSpec",
 				"components": [{
+					"id": "926274ca-0148-46ee-8b1c-83a5f1d61d14",
+					"functor": "createdDate",
+					"components": [{
+						"value": "",
+						"type": "date"
+					}]
+				}, {
+					"id": "5a7965ff-ae0b-4d74-9489-278252449fde",
+					"functor": "introducedBy",
+					"components": [{
+						"value": "",
+						"type": "string"
+					}]
+				}, {
 					"id": "1aeb3264-65a1-4968-a555-257dc744325f",
 					"functor": "canIntroduce",
 					"components": [{
@@ -1634,19 +1721,8 @@
 			}]
 		},
 		"bindings": [{
-			"label": {
-				"id": "e74a2f7d-2f0a-47f3-874f-83a8bab0fe9c",
-				"functor": "venueAgentTypeSpec",
-				"components": [{
-					"id": "b61dbdc2-e017-441d-872c-1de6d21bac03",
-					"functor": "specVersion",
-					"components": [{
-						"value": "1",
-						"type": "integer"
-					}]
-				}]
-			},
-			"blob ": ""
+			"label": "venue",
+			"blob": ""
 		}],
 		"initialPosts": []
 	}],
