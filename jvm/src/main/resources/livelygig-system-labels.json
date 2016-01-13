@@ -3,6 +3,59 @@
 			"id": "0683a16f-f16d-4af2-aa48-290dbdaf3af0",
 			"functor": "configuration",
 			"components": [{
+				"id": "84f99aef-a83e-4458-b858-56936c86739c",
+				"functor": "spliciousPostTypeSpec",
+				"components": [{
+					"id": "11276cf6-4d62-49de-aaee-af156c8dcfda",
+					"functor": "uid",
+					"components": [{
+						"value": "",
+						"type": "string"
+					}]
+				}, {
+					"id": "9ccb4618-9dbf-4445-9bcb-e4c6edc2020f",
+					"functor": "type",
+					"components": [{
+						"value": "TEXT",
+						"type": "string"
+					}]
+				}, {
+					"id": "c133645e-5709-4242-9cc1-570d6df1e5cc",
+					"functor": "created",
+					"components": [{
+						"value": "2015-12-05 20:21:04",
+						"type": "date"
+					}]
+				}, {
+					"id": "163e4073-e43e-45d6-bcf5-8515449a47b5",
+					"functor": "modified",
+					"components": [{
+						"value": "2015-12-05 20:21:04",
+						"type": "date"
+					}]
+				}, {
+					"id": "8df7e229-c29f-4062-9c3b-7f6cec6494d8",
+					"functor": "labels",
+					"components": [{
+						"value": "[]",
+						"type": "string"
+					}]
+				}, {
+					"id": "31dc86f5-6e66-4909-b342-e85937bf2f85",
+					"functor": "connections",
+					"components": [{
+						"value": "[]",
+						"type": "string"
+					}]
+				}, {
+					"id": "dee68675-14c4-4e52-9a30-c61541225ef2",
+					"functor": "text",
+					"components": [{
+						"value": "",
+						"type": "string"
+					}]
+				}]
+			}, {
 				"id": "701e68b7-a7da-4d1e-a6a2-51407b553bb4",
 				"functor": "postTypeSpec",
 				"components": [{
@@ -436,6 +489,31 @@
 					"components": [{
 						"value": "false",
 						"type": "boolean"
+					}]
+				}]
+			}, {
+				"id": "75c5aa42-3be0-4f04-8997-e35c58629aa8",
+				"functor": "contractTypeTypeSpec",
+				"components": [{
+					"id": "99a01b34-f7db-489b-8ae6-d0cc6bdad3ab",
+					"functor": "heading",
+					"components": [{
+						"value": "",
+						"type": "string"
+					}]
+				}, {
+					"id": "4ac66641-3a4f-4ecb-92c9-23abbffd0d9a",
+					"functor": "text",
+					"components": [{
+						"value": "",
+						"type": "string"
+					}]
+				}, {
+					"id": "7ab255ac-f0d5-4759-abb3-841a7da20826",
+					"functor": "updated",
+					"components": [{
+						"value": "2002-05-30T09:30:10Z",
+						"type": "date"
 					}]
 				}]
 			}, {
