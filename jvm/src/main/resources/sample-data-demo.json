@@ -1,10 +1,12 @@
 {
-	"labels": [{
+	"labels": [
+
+		{
 			"id": "1",
 			"functor": "leaf",
 			"components": [{
 				"id": "1a",
-				"functor": "UID",
+				"functor": "id",
 				"components": [{
 					"id": "1b",
 					"value": "1d6331a4c1cc48de8248ece06c7e4bdf",
@@ -44,7 +46,7 @@
 			"functor": "leaf",
 			"components": [{
 				"id": "2a",
-				"functor": "UID",
+				"functor": "id",
 				"components": [{
 					"id": "2b",
 					"value": "d9f0083a5f7e41889819c033a8d509da",
@@ -84,7 +86,7 @@
 			"functor": "leaf",
 			"components": [{
 				"id": "3a",
-				"functor": "UID",
+				"functor": "id",
 				"components": [{
 					"id": "3b",
 					"value": "9c00dba38f6d407ebe699f0e98f356aa",
@@ -124,7 +126,7 @@
 			"functor": "leaf",
 			"components": [{
 				"id": "4a",
-				"functor": "UID",
+				"functor": "id",
 				"components": [{
 					"id": "4b",
 					"value": "9f86552db0894a25ab3f2a756b4089cf",
@@ -164,7 +166,7 @@
 			"functor": "leaf",
 			"components": [{
 				"id": "5a",
-				"functor": "UID",
+				"functor": "id",
 				"components": [{
 					"id": "5b",
 					"value": "58bbeb443b4c4c0cbda82c99c3178e6e",
@@ -204,7 +206,7 @@
 			"functor": "leaf",
 			"components": [{
 				"id": "6a",
-				"functor": "UID",
+				"functor": "id",
 				"components": [{
 					"id": "6b",
 					"value": "2d18d1f5b624486a8b48243d036f5440",
@@ -244,7 +246,7 @@
 			"functor": "leaf",
 			"components": [{
 				"id": "7a",
-				"functor": "UID",
+				"functor": "id",
 				"components": [{
 					"id": "7b",
 					"value": "cd265741286c4edcabd60081d17de6b0",
